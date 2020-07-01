@@ -2,7 +2,7 @@ package main
 
 import (
    "fmt"
-   "github.com/ildar-gaziev/count"
+   "github.com/ildar-gaziev/app-one/count"
 )
 
 const msg := "Hello, world"
