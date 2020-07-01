@@ -1,4 +1,4 @@
-module app-one 
+module app-one
 
 require (
 	github.com/ildar-gaziev/app-one v1.0.0
