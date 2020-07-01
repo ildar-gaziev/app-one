@@ -6,4 +6,5 @@ func Count(s string, r rune) (res int) {
 			res++
 		}
 	}
+	return
 }

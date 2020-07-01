@@ -9,5 +9,5 @@ const msg := "Hello, world"
 
 func main() {
 	fmt.Println(msg)
-	fmt.Println(count.Count(msg))
+	fmt.Println(count.Count(msg, 'l'))
 }
