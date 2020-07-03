@@ -8,7 +8,7 @@ import (
 
 func main() {
 	msg := os.Args[1]
-	letter := os.Args[2]
+	letter := []rune(os.Args[2])[0]
 	fmt.Println(msg)
 	fmt.Println(count.Count(msg, letter))
 }
