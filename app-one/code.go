@@ -6,10 +6,9 @@ import (
 	"os"
 )
 
-const msg = os.Args[1]
-const letter = os.Args[2]
-
 func main() {
+	msg := os.Args[1]
+	letter := os.Args[2]
 	fmt.Println(msg)
 	fmt.Println(count.Count(msg, letter))
 }
